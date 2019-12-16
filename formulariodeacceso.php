@@ -2,7 +2,15 @@
     <head></head>
     <title></title>
     <body>
-        <form action="#" method="post">
+        <?php 
+        if (isset($_POST['Acceder']) && (($_POST['usuario']) == "profesor")){
+            header('Location: index3.php');
+        }
+        elseif (isset($_POST['Acceder']) && (($_POST['usuario']) == "administrador")){
+            header('Location: registroaulas.php');
+        }
+        else{ ?>
+                 <form action="alumnos.php" method="post">
             <table>
                 <tr>
                     <td>
@@ -25,6 +33,9 @@
                     </td>
                 </tr>
             </table>
-        </form>         
+        </form>    
+        
+       <?php } ?>
+        
     </body>
 </html>
