@@ -18,7 +18,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <button>Acceder</button>
+                        <input type="submit" value="Acceder" name="Acceder" />
                     </td>
                     <td>
                         <button onclick="location.href='./paginainicial.html'">Atrás</button>
