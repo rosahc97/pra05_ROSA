@@ -17,7 +17,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <a href="./formulariodeacceso.html"><input type="submit" value="acceder" name="Acceder" /></a>
+                        <a href="./formulariodeacceso.html"><input type="submit" value="Acceder" name="Acceder" /></a>
                     </td>
                     <td>
                         <button onclick="location.href='./alumnos.html'">Registrar</button>
