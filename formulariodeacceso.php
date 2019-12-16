@@ -3,10 +3,10 @@
     <title></title>
     <body>
         <?php 
-        if (isset($_POST['Acceder']) && (($_POST['usuario']) == "profesor")){
+        if (isset($_POST['Acceder']) && (($_POST['usuario']) == 'profesor')){
             header('Location: index3.php');
         }
-        elseif (isset($_POST['Acceder']) && (($_POST['usuario']) == "administrador")){
+        elseif (isset($_POST['Acceder']) && (($_POST['usuario']) == 'administrador')){
             header('Location: registroaulas.php');
         }
         else{ ?>
