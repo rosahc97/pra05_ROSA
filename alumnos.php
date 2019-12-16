@@ -5,7 +5,7 @@
         <title>Registro de alumnos</title>
     </head>
     <body>
-           <form action="#" method="get">
+           <form action="#" method="post">
             <table border="1" align="center">  
             <tr>
             <td>     

@@ -3,7 +3,7 @@
     <head></head>
     <title>Index3</title>
     <body>
-        <form action="#" method="GET">
+        <form action="#" method="post">
             <fieldset>
                 <legend>Registro de cursos</legend>
                     <table>

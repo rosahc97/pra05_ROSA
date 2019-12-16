@@ -3,7 +3,7 @@
         <title>FORMULARIO DE REGISTRO DE AULA </title>
     </head>
     <body>
-        <from>
+        <from action="#" method="post">
              <fieldset>
                 <p>nombre del aula:<br>
                 <input type="text" name="nombreaula" /> </p>
